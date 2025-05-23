@@ -1,16 +1,52 @@
-# 2gather
+# 🎉 2gather – Social Media Event Management App
 
-Event platform application
+**2gather** is a Flutter-based social media application designed to create, discover, and join public or private events. It also enables real-time chatting and notifications, helping users connect over shared interests and local happenings.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📅 Create, edit, and manage public/private events
+- 🧭 Discover events based on location and interest
+- 💬 Real-time group & private chat functionality
+- 🔔 Event-based notifications and reminders
+- 🗺️ Google Maps integration for event location view
+- 📤 RSVP, comment, and interact with event attendees
+- 📥 Offline caching with Hive for seamless experience
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+| Category         | Technology                           |
+|------------------|---------------------------------------|
+| **Framework**    | Flutter (Material 3)                 |
+| **State Mgmt**   | BLoC (flutter_bloc)                  |
+| **Database**     | Firebase Firestore, Hive (offline)   |
+| **Networking**   | Dio                                  |
+| **Serialization**| json_serializable                    |
+| **Authentication**| Firebase Auth                       |
+| **Notifications**| Firebase Cloud Messaging (FCM)       |
+| **Maps**         | Google Maps Flutter SDK              |
+
+---
+
+## 📸 Screenshots
+
+![sandeep](https://github.com/user-attachments/assets/438ca45d-86b8-4c3f-9991-11f4a4b0ee8e)
+
+
+## 🧑‍💻 Getting Started
+
+### Prerequisites
+
+- Flutter SDK (v3.10 or higher recommended)
+- Firebase Project setup with Firestore, Auth, and FCM enabled
+- Google Maps API Key
+
+### Installation
+
+```bash
+git clone https://github.com/yourusername/2gather.git
+cd 2gather
+flutter pub get
