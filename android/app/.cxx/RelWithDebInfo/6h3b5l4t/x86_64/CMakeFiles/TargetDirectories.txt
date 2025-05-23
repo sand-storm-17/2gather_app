@@ -1,0 +1,2 @@
+/Users/keshavagarwal/2gather/sandip_ver/2gather/android/app/.cxx/RelWithDebInfo/6h3b5l4t/x86_64/CMakeFiles/edit_cache.dir
+/Users/keshavagarwal/2gather/sandip_ver/2gather/android/app/.cxx/RelWithDebInfo/6h3b5l4t/x86_64/CMakeFiles/rebuild_cache.dir
